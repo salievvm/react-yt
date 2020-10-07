@@ -1,0 +1,21 @@
+.add-todo__form { 
+    margin: 1rem 0;
+
+    .field {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .input {
+        padding: .5rem 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: .5rem;
+        width: 100%
+    };
+    .button {
+        padding: 6px;
+        white-space: nowrap;
+        margin-left: 1rem;
+    }
+}
